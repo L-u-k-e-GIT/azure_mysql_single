@@ -68,6 +68,13 @@ variable "MD_PESC_NAME" {
 
 }
 
+variable "MD_PENIC_NAME" {
+  description = "Private Endpoint Service Connection Name"
+  type        = string
+  default     = ""
+
+}
+
 ###########MYSQL
 
 
