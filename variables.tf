@@ -68,12 +68,13 @@ variable "MD_PESC_NAME" {
 
 }
 
+/* NOT READY YET on Azurerm provider
 variable "MD_PENIC_NAME" {
   description = "Private Endpoint Service Connection Name"
   type        = string
   default     = ""
 
-}
+}*/
 
 ###########MYSQL
 
