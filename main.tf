@@ -42,4 +42,8 @@ resource "azurerm_private_endpoint" "mysql_pe" {
     subresource_names              = [ "mysqlServer" ]
     is_manual_connection           = false
   }
+  
+  network_interface {
+    name = var.MD_PENIC_NAME
+  }
 }
