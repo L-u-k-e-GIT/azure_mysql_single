@@ -42,8 +42,9 @@ resource "azurerm_private_endpoint" "mysql_pe" {
     subresource_names              = [ "mysqlServer" ]
     is_manual_connection           = false
   }
-  
+  /* NOT READY YET on Azurerm provider
   network_interface {
     name = var.MD_PENIC_NAME
   }
+  */
 }
