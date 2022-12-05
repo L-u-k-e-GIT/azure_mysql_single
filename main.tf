@@ -48,9 +48,3 @@ resource "azurerm_private_endpoint" "mysql_pe" {
   }
   */
 }
-
-output "mysql_name" {
- 
-  value     = azurerm_mysql_server.mysql.name
- 
-}
