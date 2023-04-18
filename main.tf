@@ -52,3 +52,7 @@ resource "azurerm_private_endpoint" "mysql_pe" {
 output "mysql_name" {
   value = azurerm_mysql_server.mysql.name
 }
+
+output "pe_id" {
+  value = azurerm_private_endpoint.mysql_pe.id
+}
