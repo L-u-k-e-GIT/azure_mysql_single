@@ -56,3 +56,7 @@ output "mysql_name" {
 output "pe_id" {
   value = azurerm_private_endpoint.mysql_pe.network_interface[0].id
 }
+
+output "mysql_id" {
+  value = azurerm_mysql_server.mysql.id
+}
